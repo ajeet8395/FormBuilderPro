@@ -76,7 +76,7 @@ export default function Style() {
         <div className="bg-white border-r-2">
           {/* Input option */}
           <div className="p-6 border-b">
-            <Accordion title="Input Options">
+            <Accordion title="Input Options" className="text-gray-900">
               <div className="px-4">
                 <p className="text-sm pt-2 text-gray-700">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -232,7 +232,7 @@ export default function Style() {
                     <h4 className="text-gray-900 font-bold text-base mb-2">
                       Text
                     </h4>
-                    <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                    <label className="block mb-1 text-sm font-medium text-gray-900">
                       Font Family
                     </label>
                     <select
@@ -249,7 +249,7 @@ export default function Style() {
                   {/* label style */}
                   <div className="flex justify-between">
                     <div>
-                      <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                      <label className="block mb-1 text-sm font-medium text-gray-900">
                         Label color
                       </label>
                       <div className="flex gap-2">
@@ -281,7 +281,7 @@ export default function Style() {
                   </div>
                   {/* link color */}
                   <div>
-                    <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                    <label className="block mb-1 text-sm font-medium text-gray-900 ">
                       Link color
                     </label>
                     <div className="flex gap-2">
@@ -306,7 +306,7 @@ export default function Style() {
                     </h4>
                     <div className="flex justify-between">
                       <div className="mb-4">
-                        <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                        <label className="block mb-1 text-sm font-medium text-gray-900 ">
                           Background color
                         </label>
                         <div className="flex gap-2">
@@ -326,7 +326,7 @@ export default function Style() {
                       </div>
                       {/* select alignment */}
                       <div className="w-full lg:w-[21%]">
-                        <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                        <label className="block mb-1 text-sm font-medium text-gray-900 ">
                           Alignment
                         </label>
                         <select
@@ -342,7 +342,7 @@ export default function Style() {
                     </div>
                     <div className="flex justify-between">
                       <div>
-                        <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-white">
+                        <label className="block mb-1 text-sm font-medium text-gray-900 ">
                           Font color
                         </label>
                         <div className="flex gap-2">

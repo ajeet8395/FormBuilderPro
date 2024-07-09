@@ -76,7 +76,7 @@ export default function FieldPropertiesEditor({
                     type="text"
                     value={option}
                     onChange={(e) => handleOptionChange(index, e.target.value)}
-                    className="block w-full p-2 mt-1 border border-gray-300 rounded-md outline-none"
+                    className="block w-full p-2 mt-1 border border-gray-300 rounded-md outline-none text-gray-700"
                   />
                   <button
                     type="button"

@@ -55,7 +55,7 @@ export default function AfterSubmit() {
                   />
                   <label
                     for="default-radio-2"
-                    class="ms-2 text-sm text-gray-900 dark:text-gray-300"
+                    class="ms-2 text-sm  text-black"
                   >
                     Thank you message
                   </label>
@@ -71,7 +71,7 @@ export default function AfterSubmit() {
                   />
                   <label
                     for="default-radio-2"
-                    class="ms-2 text-sm text-gray-900 dark:text-gray-300"
+                    class="ms-2 text-sm text-gray-900"
                   >
                     External URL
                   </label>
@@ -87,7 +87,7 @@ export default function AfterSubmit() {
                   />
                   <label
                     for="default-radio-2"
-                    class="ms-2 text-sm text-gray-900 dark:text-gray-300"
+                    class="ms-2 text-sm text-gray-900"
                   >
                     Scheduling page
                     <span class="text-white bg-green-500 ms-1 text-[10px] px-1 py-[.15rem] font-medium rounded-sm shadow-md">
@@ -106,7 +106,7 @@ export default function AfterSubmit() {
                   />
                   <label
                     for="default-radio-2"
-                    class="ms-2 text-sm text-gray-900 dark:text-gray-300"
+                    class="ms-2 text-sm text-gray-900"
                   >
                     Conditionally redirect to scheduling page.
                     <span class="text-white bg-green-500 ms-1 text-[10px] px-1 py-[.15rem] font-medium rounded-sm shadow-md">
@@ -120,12 +120,12 @@ export default function AfterSubmit() {
               </p>
               <div className="mt-4">
                 <Editor
-                  apiKey="7fhuxovv6w6zyzcjavu7f5g2xjpmm0agoy5rdpuzztj1ed6w"
+                  apiKey="f8kroa61i85cpjrjk4w054qp77zozsjuouhvrwe07hkl2n4s"
                   init={{
                     plugins:
-                      "anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown",
+                      "anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown",
                     toolbar:
-                      "undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat",
+                      "undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat",
                     tinycomments_mode: "embedded",
                     tinycomments_author: "Author name",
                     mergetags_list: [
@@ -158,7 +158,7 @@ export default function AfterSubmit() {
               <div className="w-full md:w-2/4">
                 <label
                   for="countries"
-                  class="block mb-2 text-base font-semibold text-gray-900 dark:text-white"
+                  class="block mb-2 text-base font-semibold text-gray-900"
                 >
                   Set lifecycle stage to
                 </label>
@@ -186,7 +186,7 @@ export default function AfterSubmit() {
           </div>
           <div>
             <h2
-              className="font-semibold text-lg flex"
+              className="font-semibold text-lg flex text-gray-900"
               data-tip="true"
               data-html={true}
               data-for="infoTooltip"
@@ -195,7 +195,7 @@ export default function AfterSubmit() {
               <InformationCircleIcon className="h-5 w-5 text-gray-500 ml-2 cursor-pointer" />
             </h2>
             <ReactTooltip id="infoTooltip" place="top" effect="solid">
-              <span className="bg-green-900">
+              <span className="bg-green-900 text-gray-800">
                 Here are your follow-up options
               </span>
             </ReactTooltip>
@@ -206,7 +206,7 @@ export default function AfterSubmit() {
                 value=""
                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded"
               />
-              <label for="link-checkbox" class="ms-2 text-sm">
+              <label for="link-checkbox" class="ms-2 text-sm text-gray-800">
                 Send submission email notifications to the contact's owner.{" "}
                 <Link
                   href="#"
@@ -218,7 +218,7 @@ export default function AfterSubmit() {
             </div>
           </div>
           <div>
-            <h2 className="font-semibold text-lg flex">
+            <h2 className="font-semibold text-lg flex text-gray-800">
               Send submission notifications to
               <InformationCircleIcon className="h-5 w-5 text-gray-500 ml-2 cursor-pointer" />
             </h2>
@@ -251,7 +251,7 @@ export default function AfterSubmit() {
             </div>
           </div>
           <div>
-            <h2 className="font-semibold text-lg flex">
+            <h2 className="font-semibold text-lg flex text-gray-800">
               Form and error message language
               <InformationCircleIcon className="h-5 w-5 text-gray-500 ml-2 cursor-pointer" />
             </h2>
@@ -269,7 +269,7 @@ export default function AfterSubmit() {
             </div>
           </div>
           <div>
-            <h2 className="font-semibold text-lg flex">
+            <h2 className="font-semibold text-lg flex text-gray-800">
               Other submission settings
             </h2>
             <div className="border rounded-md mt-4 bg-white">
