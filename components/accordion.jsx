@@ -24,7 +24,7 @@ export default function Accordion({
             className={`flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-left bg-blue-100 rounded-lg hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75 ${buttonClassName}`}
             onClick={() => setIsOpen(!open)}
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 text-gray-900">
               {isOpen ? (
                 <ChevronUpIcon className="w-5 h-5 text-black" />
               ) : (
@@ -45,9 +45,9 @@ export default function Accordion({
                       checked={isToggleOn}
                       onChange={() => setIsToggleOn(!isToggleOn)}
                     />
-                    <div className="w-10 h-4 bg-gray-300 rounded-full shadow-inner"></div>
+                    <div className={`w-10 h-4 rounded-full shadow-inner ${isToggleOn ? "bg-blue-200" : "bg-gray-300" }`}></div>
                     <div
-                      className={`dot absolute w-6 h-6 bg-white rounded-full shadow -left-1 -top-1 transition ${
+                      className={`dot absolute w-6 h-6 rounded-full shadow -left-1 -top-1 transition ${
                         isToggleOn
                           ? "transform translate-x-full bg-blue-500"
                           : "bg-gray-500"
