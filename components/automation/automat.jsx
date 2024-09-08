@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Accordion from "../accordion";
 import AutomatForm from "./automatForm";

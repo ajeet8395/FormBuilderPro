@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import Accordion from "../accordion";
 import Link from "next/link";
