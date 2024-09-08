@@ -207,7 +207,7 @@ export default function AfterSubmit() {
                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded"
               />
               <label for="link-checkbox" class="ms-2 text-sm text-gray-800">
-                Send submission email notifications to the contact's owner.{" "}
+                Send submission email notifications to the contact owner.{" "}
                 <Link
                   href="#"
                   class="text-sky-600 font-semibold hover:underline"
